@@ -3,7 +3,7 @@ using namespace std;
 
 void sayHello()
 {
-    cout << "Hello,WOrld!" << endl;
+    cout << "Hello,World!" << endl;
 }
 
 int sum(int a, int b, int c)
