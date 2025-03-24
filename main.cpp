@@ -16,6 +16,11 @@ int difference(int a, int b, int c)
     return a - b - c;
 }
 
+int product(int a, int b, int c)
+{
+    return a * b * c;
+}
+
 int main()
 {
     sayHello();
@@ -25,5 +30,6 @@ int main()
 
     cout << "Result : " << sum(a, b, c);
     cout << "Result : " << difference(a, b, c);
+    cout << "Result : " << product(a, b, c);
     return 0;
 }
